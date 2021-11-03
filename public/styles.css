@@ -1,0 +1,26 @@
+body{
+   background-color:#fff;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 24px;
+    
+}
+
+
+
+.prg1{
+    background-color:gray;
+}
+
+.prg2{
+    background-color:gray;
+}
+
+.prg1:hover{
+    background-color: green;
+    font-size: 30px;
+}
+
+.prg2:hover{
+    background-color: green;
+    font-size: 30px;
+}

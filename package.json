@@ -1,0 +1,26 @@
+{
+  "name": "introhtml",
+  "version": "1.0.0",
+  "description": "intoduçao de html",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonT19/IntroHTML.git"
+  },
+  "author": "Nelson Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NelsonT19/IntroHTML/issues"
+  },
+  "homepage": "https://github.com/NelsonT19/IntroHTML#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
