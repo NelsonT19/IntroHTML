@@ -1,5 +1,5 @@
 body{
-   background-image: url(img/wp2729921.webp);
+   background-image: url(img/espaço.gif);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: 100% 100%;
@@ -17,12 +17,16 @@ body{
     background-color:gray;
     text-align: left;
     padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .prg2{
     background-color:gray;
     text-align: left;
     padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .prg1:hover{                       
@@ -52,7 +56,12 @@ img{
 }
 
 
-.legendas{
-    text-align:center;
-    color: #fff;
+.btn1{
+    height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left: 30%;
+    
 }
