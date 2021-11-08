@@ -1,26 +1,58 @@
 body{
-   background-color:#fff;
+   background-image: url(img/wp2729921.webp);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 24px;
     
 }
 
 
-
+.tl1{
+    color: #fff;
+    text-align: center;
+}
 .prg1{
     background-color:gray;
+    text-align: left;
+    padding: 25px;
 }
 
 .prg2{
     background-color:gray;
+    text-align: left;
+    padding: 25px;
 }
 
-.prg1:hover{
+.prg1:hover{                       
     background-color: green;
     font-size: 30px;
+    margin: 25px;
+   
 }
 
 .prg2:hover{
     background-color: green;
     font-size: 30px;
+    
+}
+
+img{
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.legendas{
+    text-align:center;
+    color: #fff;
 }
