@@ -14,54 +14,127 @@ body{
     text-align: center;
 }
 .prg1{
+    font-size: 30px;
     background-color:gray;
     text-align: left;
     padding: 25px;
     margin-left: 50px;
     margin-right: 50px;
+    text-align: center;
 }
 
-.prg2{
-    background-color:gray;
-    text-align: left;
-    padding: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 
 .prg1:hover{                       
-    background-color: green;
+    background-color: rebeccapurple;
     font-size: 30px;
     margin: 25px;
    
 }
 
-.prg2:hover{
-    background-color: green;
-    font-size: 30px;
-    
-}
 
 img{
     display: block;
-    margin-left: 5%;
+    margin-left: 25%;
     margin-right: auto;
     margin-top: 30px;
     width: 50%;
     height: auto;
-    border-style: groove;
-    border-color: black;
+    border-style:double;
+    border-color:#fff;
     border-radius: 10px;
-    padding: 30px;
+    padding: 5px;
 }
 
 
 .btn1{
     height:20px; 
     width:100px; 
-    margin: -20px -50px; 
+    margin: 50px 250px; 
     position:relative;
     top:50%; 
     left: 30%;
     
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    
+}
+
+.tit_pag{
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding-left: 50px;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+
+
+}
+
+
+.link_pag{
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position: relative;
+    margin:0;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    padding: 30px;
+
+    
+
+}
+
+.link_pag:hover{
+    color: black;
+    background-color: #fff;
+    
+}
+
+.footer{
+    color: #fff;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    transform: translateY(-50%);
+    margin-top: 100px;
+    padding: 15px;
+    
+
+}
+
+
+.container{
+    margin-top: 150px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position:static;
+    padding: 15px;
+    border-style:double;
+    border-color: #fff;
+    border-radius: 15%;
+
+
 }
